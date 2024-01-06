@@ -1,0 +1,200 @@
+/* -------------RESETS------------- */
+/*Resets are used for overwriting default html tag properties*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  font,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+    list-style: none;
+  }
+  html {
+    font-size: 62.5%;
+    height: 100%;
+  }
+  body {
+    color: #2b2b2b;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    line-height: 1.4;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  article,
+  aside,
+  footer,
+  header,
+  nav,
+  section,
+  time {
+    display: block;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  .container img{
+    width: 100%;
+    height: 38rem;
+    position: relative;
+    display: flex;
+    margin-top: 2rem;
+}
+.cover .branding img {
+    position: absolute;
+    padding-left: 2rem;
+    top: 0;
+    margin-top: 4rem;
+    width: 100px;
+
+}
+.cover .header_nav ul li {
+    display: flex;
+    gap: 2.8rem;
+    top: 5rem;
+    position: absolute;
+}
+.header_nav ul li.li1{
+  right: 35rem;
+  font-weight: bold;
+}
+.header_nav ul li.li2{
+ right:25rem;
+  font-weight: bold;
+}
+.header_nav ul li.li3{
+  right:15rem;
+  font-weight: bold;  
+}
+.header_nav ul li.li4{
+  right:5rem;
+  font-weight: bold;
+}
+
+.head p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+.head h1 {
+  text-align: center;
+  font-weight: 300;
+}
+.choose{
+  display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.choose_place h1{
+  font-weight: bold;
+}
+.time{
+width: 3rem;
+position: relative;
+display: flex;
+}
+.choose_place h2{
+  position: absolute;
+  top: 75rem;
+  margin: 5rem;
+}
+ button{
+  background-color: rgb(255, 166, 0);
+  border-radius: 100px;
+  border: none;
+  padding: 2rem;
+ box-shadow: 4 2 5 orange;
+ font-weight: bold;
+ font-size: medium;
+}
+.view button{
+  border: none;
+  border-radius: 100px;
+  margin-left: 60rem;
+}
+.ads img{
+  width:250rem;
+  height: 20rem;
+  display: flex;
+  position: relative;
+}
+
+ 
